@@ -2,7 +2,6 @@
   <div id="app">
     <!-- Call the Header component -->
     <Header />
-
     <!-- Your main content goes here -->
     <router-view />
   </div>

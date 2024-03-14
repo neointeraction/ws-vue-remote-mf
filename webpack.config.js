@@ -46,7 +46,7 @@ module.exports = (_, argv) => ({
   plugins: [
     new VueLoaderPlugin(),
     new ModuleFederationPlugin({
-      name: ".",
+      name: "header",
       filename: "remoteEntry.js",
       remotes: {},
       exposes: {
