@@ -1,7 +1,7 @@
 <template>
   <footer class="footer">
     <div class="container">
-      <span class="text-muted">This is the footer.</span>
+      <span class="text-muted">Copyright © 2024.</span>
     </div>
   </footer>
 </template>
@@ -14,8 +14,6 @@ export default {
 
 <style scoped>
 .footer {
-  position: fixed;
-  bottom: 0;
   width: 100%;
   background-color: #242424;
   padding: 20px 0;
@@ -30,5 +28,6 @@ export default {
 
 .text-muted {
   color: #fff;
+  font-size: 16px;
 }
 </style>
