@@ -28,6 +28,7 @@ export default {
   padding: 1rem;
   background-color: #242424;
   color: #fff;
+  border-bottom: 1px solid #424242;
 }
 
 .logo {
