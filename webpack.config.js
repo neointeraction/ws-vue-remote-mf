@@ -51,6 +51,7 @@ module.exports = (_, argv) => ({
       remotes: {},
       exposes: {
         "./Header": "./src/components/Header/Header.vue",
+        "./placeHolder":"./src/libs/placeHolder.js"
       },
       shared: require("./package.json").dependencies,
     }),
