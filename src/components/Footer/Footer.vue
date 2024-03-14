@@ -16,7 +16,7 @@ export default {
 .footer {
   width: 100%;
   background-color: #242424;
-  padding: 20px 0;
+  padding: 12px 0;
   text-align: center;
   border-top: 1px solid #424242;
 }
@@ -28,6 +28,6 @@ export default {
 
 .text-muted {
   color: #fff;
-  font-size: 16px;
+  font-size: 14px;
 }
 </style>
