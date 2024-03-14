@@ -4,7 +4,7 @@ const { VueLoaderPlugin } = require("vue-loader");
 const Dotenv = require("dotenv-webpack");
 module.exports = (_, argv) => ({
   output: {
-    publicPath: "http://localhost:3002/",
+    publicPath: "auto",
   },
 
   resolve: {
@@ -51,7 +51,7 @@ module.exports = (_, argv) => ({
       remotes: {},
       exposes: {
         "./Header": "./src/components/Header/Header.vue",
-        "./placeHolder":"./src/libs/placeHolder.js"
+        "./placeHolder": "./src/libs/placeHolder.js",
       },
       shared: require("./package.json").dependencies,
     }),
