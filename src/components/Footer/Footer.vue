@@ -1,14 +1,20 @@
 <template>
   <footer class="footer">
     <div class="container">
-      <span class="text-muted">Copyright © 2024.</span>
+      <span class="text-muted">Copyright © 2024. NID </span>
     </div>
   </footer>
 </template>
 
 <script>
+import useHost from "host/useHost";
+console.log("vue useHost s", useHost.getState());
+
 export default {
   name: "Footer",
+  components: {
+    useHost,
+  },
 };
 </script>
 

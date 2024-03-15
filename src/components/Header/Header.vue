@@ -3,9 +3,8 @@
     <i class="pi pi-globe" style="font-size: 1.4rem"></i>
     <nav class="menu">
       <ul>
-        <li><a href="#">Dashboard</a></li>
-        <li><a href="#">User</a></li>
-        <li><a href="#">Settings</a></li>
+        <li><a href="/dashboard">Dashboard</a></li>
+        <li><a href="/settings">Settings</a></li>
       </ul>
     </nav>
   </header>

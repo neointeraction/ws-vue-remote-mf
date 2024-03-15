@@ -48,7 +48,9 @@ module.exports = (_, argv) => ({
     new ModuleFederationPlugin({
       name: "header",
       filename: "remoteEntry.js",
-      remotes: {},
+      remotes: {
+        host: "host@http://192.168.179.28:8080/remoteEntry.js",
+      },
       exposes: {
         "./Header": "./src/components/Header/Header.vue",
         "./placeHolder": "./src/libs/placeHolder.js",
