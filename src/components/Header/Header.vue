@@ -3,8 +3,8 @@
     <i class="pi pi-globe" style="font-size: 1.4rem"></i>
     <nav class="menu">
       <ul>
-        <li><a href="/dashboard">Dashboard</a></li>
-        <li><a href="/settings">Settings</a></li>
+        <li><a href="/#/dashboard">Dashboard</a></li>
+        <li><a href="/#/settings">Settings</a></li>
       </ul>
     </nav>
   </header>
@@ -12,9 +12,14 @@
 
 <script>
 import "primeicons/primeicons.css";
+import {getState} from 'host/store'
+console.log("getState",getState())
 export default {
   name: "Header",
   // Add any necessary data, methods, or lifecycle hooks here
+  components: {
+    getState
+  },
 };
 </script>
 

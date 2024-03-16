@@ -49,7 +49,7 @@ module.exports = (_, argv) => ({
       name: "header",
       filename: "remoteEntry.js",
       remotes: {
-        host: "host@http://192.168.179.28:8080/remoteEntry.js",
+        host: "host@http://localhost:8080/remoteEntry.js",
       },
       exposes: {
         "./Header": "./src/components/Header/Header.vue",

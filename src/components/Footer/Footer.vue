@@ -7,13 +7,10 @@
 </template>
 
 <script>
-import useHost from "host/useHost";
-console.log("vue useHost s", useHost.getState());
 
 export default {
   name: "Footer",
   components: {
-    useHost,
   },
 };
 </script>
